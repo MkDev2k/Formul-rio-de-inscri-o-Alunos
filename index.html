@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+    <h1>Cadastro de Alunos</h1>
+    <p> Obs:Preencha os campos com informações verdadeiras!</p>
+    
+        <form action="dadawdadada.html">
+            <fieldset>
+                <strong><legend>Dados do Aluno</legend></strong>
+                <label>
+                    Nome Completo<br/>
+                    <input type="name" value="" placeholder="Nome do Aluno" required id="primeiro"/>
+                </label><br/>
+                <label>
+                    Data de Nascimento<br/>
+                    <input type="date" value="" required id="segundo"/>
+                </label>
+                <label><br/>
+                    Nome completo da Mãe<br/>
+                    <input type="text" value="" required  placeholder="Nome da Mãe" id="terceiro"/>
+                </label>
+                <label><br/>
+                    Nome Completo do Pai <br/> 
+                    <input type="text" value="" required  placeholder="Nome do Pai" id="quarto"/><br/>
+                    Série do Aluno<br/>
+                    <input type="text" value="" required id="quinto"  placeholder="Fundamental..Primário.."/>
+                </label>
+                <label><br/>
+                    CPF do Aluno<br/>
+                    <input type="text" value=""  id="quinto" required placeholder="XXX-XXX-XXX-XX" maxlength="11"/>
+
+                </label>
+                <label><BR/>
+                    CPF da Mãe <br/>
+                    <input type="text" value=""  id="quinto" required placeholder="XXX-XXX-XXX-XX" maxlength="11"/>
+                </label>
+                <label><br/>
+                    CPF do Pai </br>
+                    <input type="text" value=""  id="quinto" required placeholder="XXX-XXX-XXX-XX" maxlength="11"/>
+                </label>
+                <p class="pergunta">o Aluno possui algumas das seguintes características?</p><br/>
+                <input type="checkbox" value="Deficiência Auditiva"  name="Auditiva"  id="auditiva2"/>
+                <label id="auditiva">Deficiência Auditiva</label>
+                <input type="checkbox" style="margin-left: 10px;" id="auditiva2"/>
+                <label id="auditiva">Dificuldade em Aprender</label>
+                <input type="checkbox"  style="margin-left: 20px;" id="auditiva2"/>
+                <label id="auditiva">Sindrome de Down</label>
+                <input type="checkbox"  style="margin-left: 20px;" id="auditiva2"/>
+                <label id="auditiva">Problemas de Visão</label>
+                <input type="checkbox"  style="margin-left: 20px;" id="auditiva2"/>
+                <label id="auditiva">Autismo</label>
+                <p class="troca1">Escreva a Baixo Qualquer dificuldade que seu Filho possua!</p>
+                <textarea class="troca2">
+                    Exemplo: Doenças, Dificuldades.. etc
+                </textarea>
+                
+            
+
+            </fieldset>
+            <br/>
+            <fieldset>
+               <strong> <legend>Contato</legend></strong>
+               <label>
+                Telefone da Mãe<br/>
+                <input type="text" value="" required  id="quinto"placeholder="Número"/>
+               </label>
+               <label><br/>
+                Telefone do Pai <br/>
+                <input type="text" value="" id="quinto" placeholder="Número"/>
+
+
+               </label>
+               <label><br/>
+                Telefone Alternativo<br/>
+                <input type="tel" value="" id="quinto" placeholder="Número"/>
+
+               </label>
+               <label><br/>
+                E-mail para Contato <br/>
+                <input type="email" value="" id="quinto"  placeholder="Digite Aqui seu Melhor E-MAIL"/>
+               </label>
+               <br/><textarea >
+                Motivos Pelo qual desejou se matricular nessa Instituição:
+               </textarea>
+               <br/><br/>
+               <input type="submit"  id="submit" value="Inscreva-se"/>
+               <p>☺ Agradecemos a sua Inscrição ☺</p>
+
+
+
+            </fieldset>
+            
+
+        </form>
+
+
+   
+    
+</body>
+</html>

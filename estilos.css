@@ -1,0 +1,181 @@
+
+
+body {
+
+    background-image: url(pexels-yan-krukau-8617759.jpg);
+}
+
+.parte1 {
+
+    background-color: cyan;
+    width: 990px;
+    height: 900px;
+}
+
+h1 {
+    font-size: 60px; 
+    
+}
+
+p {
+    color: #727272;
+    font-size: 16px;
+}
+
+fieldset {
+    width: 990px;
+    height: 800px;
+    background-color: white;
+    border: 3px solid blue ;
+    
+}
+
+legend {
+    font-size: 25px;
+    margin-bottom: 20px;
+    max-width: 175px;
+    border-radius: 10px;
+}
+   
+input {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+#primeiro {
+    width: 500px;
+    height: 30px;
+}
+
+#segundo {
+    width: 100px;
+    height: 30px;
+}
+
+#terceiro {
+    width: 500px;
+    height: 30px;
+}
+
+#quarto {
+    width: 500px;
+    height: 30px;
+}
+
+label {
+    color:black;
+    font-family: arial;
+}
+
+#quinto {
+    
+    width: 500px;
+    height: 30px;
+
+}
+
+textarea {
+
+    resize: none;
+    width: 500px;
+    height: 300px;
+    margin-top: 30px;
+}
+
+#submit {
+
+    margin-left: 20px;
+    border-radius: 10px;
+   width: 100px;
+}
+
+p {
+    color: black;
+}
+
+.troca1 {
+display: none;
+}
+
+.troca2 {
+    display: none;
+    height: 80px;
+}
+
+@media screen and (max-width:800px) {
+
+
+    body {
+        width: 50%;
+    }
+
+    fieldset {
+
+        max-width: 280px ;
+        font-size: 1rem;
+        margin: 0;
+        height: 820px;
+        
+    }
+
+    label {
+        font-size: 1rem;
+    }
+
+
+    
+
+    input {
+        width:260px ;
+        padding: 0;
+        
+    }
+
+    textarea {
+
+        width: 270px;
+    }
+
+   
+
+    #auditiva2 {
+
+       display: none;
+       
+        
+    }
+
+    fieldset input {
+
+        max-width: 260px;
+    }
+
+    #auditiva {
+
+        display: none;
+    }
+
+    .pergunta {
+
+        display: none;
+    }
+
+    .troca1 {
+        display: block;
+
+    }
+
+    .troca2 {
+        display: block;
+    }
+        
+
+    
+}
+
+
+
